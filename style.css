@@ -1,0 +1,74 @@
+body{
+    background-image: url('./bg3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(232,232,232);
+    border-radius: 5px; 
+    border: solid 5px black;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+    }
+
+   input{
+    border  : 2px black;
+    width   : 80%;
+    height: 50%;
+   }
+
+   input[type=text] {
+    padding:10px;
+    margin:10px 0; 
+    padding:10px;
+    border-radius:10px;
+    border:black;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    background   : rgba(0,0,0,.1);
+    text-size-adjust: auto;
+   
+    }
+
+   input:focus {
+    background   : rgba(0,0,0,.1);
+    border-radius: 5px;
+    }
+    
+
+   #img{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+   }
+
+   button{
+    appearance:none;
+    -webkit-appearance:none;
+
+    /* usual styles */
+    padding:5px;
+    border:none;
+    background-color:#3F51B5;
+    color:#fff;
+    font-weight:600;
+    border-radius:5px;
+    width:10%;
+    cursor: pointer;
+   }
+
+   #title{
+       position: relative;
+       padding: 0% 20%;
+   }
+
+

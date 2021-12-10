@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9/core.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9/sha256.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+    <script src="index.js"></script>
+    <script src="encryption.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+	<body>
+	    <div class="center">
+		<h1 id="title">GOVERNMENT OF INDIA</h1>
+		<div>
+            <div> 
+                Enter the Objectionable Text <input placeholder="Text" id="message" type="text"/>
+                <button onclick="fetch_text()">Submit</button>
+            </div>
+           
+            <div>
+                Attach a Image : <input type="file" id="img" name="img" accept="image/*">
+                <button onclick="fetch_image()">Submit</button>
+            </div>
+            <div>
+                Attach a Video : <input type="file" id="video" name="img" accept="video/*">
+                <button onclick="fetch_video()">Submit</button>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h1>Encrypted Code :</h1>
+            </div>
+           <div id = "users"></div>
+        </div>
+
+        <div>
+            <div>
+                <h1>The Originator :</h1>
+            </div>
+            <div>
+                <div id="list"></div>
+            </div>
+        </div> 
+      </div>
+	</body>
+</html>
